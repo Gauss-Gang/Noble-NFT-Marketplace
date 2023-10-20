@@ -71,8 +71,8 @@ export function WalletOrdersTable({ orders }: Props) {
                   </Typography>
                 </Box>
                 <Button
+                  variant="skewed"
                   onClick={handleConnectWallet}
-                  variant="contained"
                   startIcon={<Wallet />}
                 >
                   <FormattedMessage

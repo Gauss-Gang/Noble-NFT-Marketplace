@@ -38,7 +38,7 @@ interface MyAppProps extends AppProps {
 
 const appConfig = getAppConfig();
 
-const tempTheme = getTheme(appConfig.theme);
+const tempTheme = getTheme('noble');
 
 const theme = responsiveFontSizes(tempTheme);
 

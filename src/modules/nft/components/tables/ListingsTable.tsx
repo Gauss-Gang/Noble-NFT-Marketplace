@@ -5,6 +5,7 @@ import {
   ListItemText,
   Menu,
   MenuItem,
+  Paper,
   Stack,
   Table,
   TableBody,
@@ -202,7 +203,7 @@ export function ListingsTable({
         </MenuItem>
       </Menu>
       <Stack spacing={1}>
-        <TableContainer>
+        <TableContainer component={Paper}>
           <Table>
             <TableHead>
               <TableRow>

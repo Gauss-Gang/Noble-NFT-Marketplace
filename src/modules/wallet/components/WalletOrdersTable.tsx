@@ -1,6 +1,7 @@
 import {
   Box,
   Button,
+  Paper,
   Stack,
   Table,
   TableBody,
@@ -115,7 +116,7 @@ export function WalletOrdersTable({ orders }: Props) {
   }, [orders, isActive]);
 
   return (
-    <TableContainer>
+    <TableContainer component={Paper}>
       <Table>
         <TableHead>
           <TableRow>

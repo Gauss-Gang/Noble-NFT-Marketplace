@@ -1,6 +1,7 @@
 import {
   Box,
   lighten,
+  Paper,
   Stack,
   Table,
   TableBody,
@@ -121,7 +122,7 @@ export function TransactionsTable({
   };
 
   return (
-    <TableContainer>
+    <TableContainer component={Paper}>
       <Table>
         <TableHead>
           <TableRow>

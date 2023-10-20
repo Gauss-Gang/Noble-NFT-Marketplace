@@ -44,7 +44,7 @@ function WalletBalancesTable({ isBalancesVisible }: Props) {
   }, [prices, tokenBalancesQuery.data, currency]);
 
   return (
-    <TableContainer>
+    <TableContainer component={Paper}>
       <Table>
         <TableHead>
           <TableRow>

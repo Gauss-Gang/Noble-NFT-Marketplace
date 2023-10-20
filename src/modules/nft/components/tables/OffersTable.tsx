@@ -9,6 +9,7 @@ import {
   ListItemText,
   Menu,
   MenuItem,
+  Paper,
   Stack,
   Table,
   TableBody,
@@ -191,7 +192,7 @@ export function OffersTable({
         </MenuItem>
       </Menu>
       <Stack spacing={1}>
-        <TableContainer>
+        <TableContainer component={Paper}>
           <Table>
             <TableHead>
               <TableRow>

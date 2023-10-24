@@ -54,13 +54,27 @@ export default createTheme({
       },
     },
     MuiIconButton: {
+      styleOverrides: {
+        colorPrimary: nobleStyles.colors.white,
+        colorSecondary: nobleStyles.colors.white,
+        root: {
+          color: nobleStyles.colors.white,
+        },
+      },
       defaultProps: {
-        color: 'secondary',
+        color: 'primary',
       },
     },
     MuiSvgIcon: {
+      styleOverrides: {
+        colorPrimary: nobleStyles.colors.white,
+        colorSecondary: nobleStyles.colors.white,
+        root: {
+          color: nobleStyles.colors.white,
+        },
+      },
       defaultProps: {
-        color: 'secondary',
+        color: 'primary',
       },
     },
     MuiButton: {

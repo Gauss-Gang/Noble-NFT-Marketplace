@@ -306,12 +306,9 @@ const Wallet: NextPage = () => {
 
                 <Grid item xs={12}>
                   <Button
+                    variant="dark"
                     onClick={handleToggleBalances}
                     fullWidth
-                    sx={(theme) => ({
-                      backgroundColor: theme.palette.background.paper,
-                      py: 2,
-                    })}
                     startIcon={
                       isTableOpen ? <ExpandLessIcon /> : <ExpandMoreIcon />
                     }

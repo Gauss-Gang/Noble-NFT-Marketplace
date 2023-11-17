@@ -366,8 +366,7 @@ function Navbar() {
 
               {!isActive ? (
                 <Button
-                  variant="outlined"
-                  color="inherit"
+                  variant="skewed"
                   onClick={handleOpenConnectWalletDialog}
                   startIcon={<Wallet />}
                   endIcon={<ChevronRightIcon />}

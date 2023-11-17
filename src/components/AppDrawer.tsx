@@ -41,6 +41,7 @@ import {
 import Wallet from './icons/Wallet';
 import Link from './Link';
 import { WalletButton } from './WalletButton';
+import { nobleStyles } from '../themes/noble';
 
 const CustomListItemSecondaryAction = styled(ListItemSecondaryAction)({
   display: 'flex',
@@ -89,8 +90,7 @@ function AppDrawer({ open, onClose }: Props) {
         <Box sx={{ p: 2 }}>
           {!isActive ? (
             <Button
-              variant="outlined"
-              color="inherit"
+              variant="skewed"
               onClick={handleConnectWallet}
               startIcon={<Wallet />}
               endIcon={<ChevronRightIcon />}

@@ -47,7 +47,7 @@ export function Footer() {
           spacing={2}
           sx={{ flexDirection: { xs: 'column', sm: 'row' } }}
         >
-          <Grid item>
+          {/* <Grid item>
             <Link
               href="https://dexkit.com/contact-us/"
               color="inherit"
@@ -87,7 +87,7 @@ export function Footer() {
                 <strong>DexKit</strong>
               </Link>
             </Typography>
-          </Grid>
+          </Grid> */}
           <Grid item>
             <Stack direction="row" spacing={1}>
               {appConfig?.social &&

@@ -6,7 +6,7 @@ import MainLayout from '../src/components/layouts/main';
 import Image from 'next/image';
 
 import { FormattedMessage } from 'react-intl';
-import catHeroImg from '../public/assets/images/cat-hero.svg';
+import nobleSwap from '../public/assets/images/noble-swap.png';
 import Link from '../src/components/Link';
 
 const NotFound: NextPage = () => {
@@ -69,7 +69,7 @@ const NotFound: NextPage = () => {
                 order: { xs: 1, sm: 2 },
               }}
             >
-              <Image src={catHeroImg} alt="Cat Hero" />
+              <Image src={nobleSwap} alt="Noble Swap" />
             </Grid>
           </Grid>
         </Container>

@@ -5,7 +5,7 @@
   "theme": "kittygotchi",
   "url": "https://www.kittygotchi.com",
   "logo": {
-    "url": "/assets/images/market-logo.svg",
+    "url": "/assets/images/noble-swap-logo-text.png",
     "height": "",
     "width": ""
   },
@@ -154,7 +154,7 @@
       "sections": [
         {
           "type": "featured",
-          "title": "Kittygotchi Marketplace",
+          "title": "NobleSwap Marketplace",
           "items": [
             {
               "type": "asset",

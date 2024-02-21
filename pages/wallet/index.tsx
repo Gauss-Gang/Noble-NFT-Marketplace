@@ -284,6 +284,7 @@ const Wallet: NextPage = () => {
                       <Button
                         onClick={handleOpenImportTokenDialog}
                         variant="outlined"
+                        color="inherit"
                         startIcon={<ImportExportIcon />}
                         fullWidth
                       >
@@ -408,7 +409,11 @@ const Wallet: NextPage = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={12}>
-                  <Tabs value={selectedTab} onChange={handleChangeTab}>
+                  <Tabs
+                    value={selectedTab}
+                    onChange={handleChangeTab}
+                    textColor="inherit"
+                  >
                     <Tab
                       value={WalletTabs.Transactions}
                       label={

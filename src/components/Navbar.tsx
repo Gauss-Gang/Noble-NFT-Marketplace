@@ -317,14 +317,24 @@ function Navbar() {
               >
                 <FormattedMessage id="home" defaultMessage="Home" />
               </Link>
+
               {isActive && (
-                <Link
-                  color="inherit"
-                  href="/wallet"
-                  sx={{ fontWeight: 600, textDecoration: 'none' }}
-                >
-                  <FormattedMessage id="wallet" defaultMessage="Wallet" />
-                </Link>
+                <>
+                  <Link
+                    color="inherit"
+                    href="/order/create"
+                    sx={{ fontWeight: 600, textDecoration: 'none' }}
+                  >
+                    <FormattedMessage id="list.nft" defaultMessage="List NFT" />
+                  </Link>
+                  <Link
+                    color="inherit"
+                    href="/wallet"
+                    sx={{ fontWeight: 600, textDecoration: 'none' }}
+                  >
+                    <FormattedMessage id="wallet" defaultMessage="Wallet" />
+                  </Link>
+                </>
               )}
             </Stack>
             <Stack

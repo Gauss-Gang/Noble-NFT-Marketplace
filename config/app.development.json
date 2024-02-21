@@ -1,8 +1,8 @@
 {
-  "name": "Marketplace",
+  "name": "NobleSwap NFT Marketplace",
   "locale": "en-US",
   "currency": "usd",
-  "theme": "default-theme",
+  "theme": "noble",
   "url": "http://localhost:3001",
   "logo": {
     "url": "/assets/images/noble-swap-logo-text.png",
@@ -11,8 +11,8 @@
   },
   "favicon_url": "",
   "social": [
-    { "type": "instagram", "handle": "dexkit_crew" },
-    { "type": "twitter", "handle": "dexkit" }
+    { "type": "instagram", "handle": "gauss.gang" },
+    { "type": "twitter", "handle": "gaussgang" }
   ],
   "transak": {
     "enabled": true

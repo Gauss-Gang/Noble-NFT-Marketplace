@@ -60,6 +60,7 @@
   "fiat.price": "{currency} Price",
   "from": "From",
   "home": "Home",
+  "list.nft": "List NFT",
   "import": "Import",
   "import.nft": "Import NFT",
   "import.token": "Import Token",

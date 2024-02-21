@@ -37,7 +37,7 @@ export function Footer() {
   };
 
   return (
-    <Box py={2} sx={{ bgcolor: (theme) => theme.palette.background.paper }}>
+    <Box py={12} sx={{ bgcolor: (theme) => theme.palette.background.paper }}>
       <Container>
         <Grid
           container
@@ -47,20 +47,44 @@ export function Footer() {
           spacing={2}
           sx={{ flexDirection: { xs: 'column', sm: 'row' } }}
         >
-          {/* <Grid item>
-            <Link
-              href="https://dexkit.com/contact-us/"
-              color="inherit"
-              target="_blank"
-            >
-              <FormattedMessage
-                id="contact.us"
-                defaultMessage="Contact us"
-                description="Contact us"
-              />
-            </Link>
-          </Grid>
           <Grid item>
+            <Stack spacing={2}>
+              <Link
+                href="https://gaussgang.com/"
+                color="inherit"
+                target="_blank"
+              >
+                <FormattedMessage
+                  id="gauss.website"
+                  defaultMessage="Gauss Website"
+                  description="Gauss Website"
+                />
+              </Link>
+              <Link
+                href="https://docs.gaussgang.com/getting-started/welcome-to-gauss"
+                color="inherit"
+                target="_blank"
+              >
+                <FormattedMessage
+                  id="whitepaper"
+                  defaultMessage="Whitepaper"
+                  description="Whitepaper"
+                />
+              </Link>
+              <Link
+                href="https://explorer.gaussgang.com/"
+                color="inherit"
+                target="_blank"
+              >
+                <FormattedMessage
+                  id="gauss.explorer"
+                  defaultMessage="Gauss Explorer"
+                  description="Gauss Explorer"
+                />
+              </Link>
+            </Stack>
+          </Grid>
+          {/* <Grid item>
             <Typography variant="body1" align="center">
               <Link href="/" color="primary">
                 {appConfig.name}
